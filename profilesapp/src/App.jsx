@@ -17,18 +17,19 @@ function App() {
   }
 
   return (
-    <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <h1>Profiles App</h1>
+  <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
+    <h1>Profiles App</h1>
 
-      <p>{message}</p>
+    <p>{message}</p>
 
-      <button onClick={getMessage}>Load Data</button>
+    <button onClick={getMessage}>Load Data</button>
 
-      <p style={{ marginTop: "2rem" }}>
-        Built by: <strong>Olajumoke B. Kupoluyi</strong>
-      </p>
-    </div>
-  );
+    <p style={{ marginTop: "2rem" }}>
+      Built by: <strong>Olajumoke B. Kupoluyi</strong>
+    </p>
+  </div>
+);
+
 }
 
 export default App;
